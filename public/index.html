@@ -12,7 +12,17 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
-
+   <script type="text/javascript">
+      (function(){
+      var now = new Date();
+      var head = document.getElementsByTagName('head')[0];
+      var script = document.createElement('script');
+      script.async = true;
+      var script_address = 'https://cdn.yektanet.com/js/moviealborz.netlify.app/native-moviealborz.netlify.app-23016.js';
+      script.src = script_address + '?v=' + now.getFullYear().toString() + '0' + now.getMonth() + '0' + now.getDate() + '0' + now.getHours();
+      head.appendChild(script);
+      })();
+  </script>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
@@ -118,54 +128,11 @@
 
 <!-- food section starts  -->
 
-<!-- <section class="food" id="food">
 
-   <div class="heading">  
-      <span>popular dishes</span>
-      <h3>our delicious food</h3>
-   </div>
 
-   <div class="swiper food-slider">
+  
 
-      <div class="swiper-wrapper">
-
-         <div class="swiper-slide slide" data-name="food-1">
-            <img src="images/food-img-1.png" alt="">
-            <h3>delicious food</h3>
-            <div class="price">$49.99</div>
-         </div>
-
-         <div class="swiper-slide slide" data-name="food-2">
-            <img src="images/food-img-2.png" alt="">
-            <h3>delicious food</h3>
-            <div class="price">$49.99</div>
-         </div>
-
-         <div class="swiper-slide slide" data-name="food-3">
-            <img src="images/food-img-3.png" alt="">
-            <h3>delicious food</h3>
-            <div class="price">$49.99</div>
-         </div>
-
-         <div class="swiper-slide slide" data-name="food-4">
-            <img src="images/food-img-4.png" alt="">
-            <h3>delicious food</h3>
-            <div class="price">$49.99</div>
-         </div>
-
-         <div class="swiper-slide slide" data-name="food-5">
-            <img src="images/food-img-5.png" alt="">
-            <h3>delicious food</h3>
-            <div class="price">$49.99</div>
-         </div>
-
-      </div>
-
-      <div class="swiper-pagination"></div>
-
-   </div>
-
-</section> -->
+<div id="pos-article-display-69562"></div> 
 
 <!-- food section ends -->
 
